@@ -1,0 +1,35 @@
+---
+title: "Data_Science"
+author: "Andrew Harvey"
+format: html
+editor: visual
+---
+
+## Part 1
+1. What do you think being a data scientist is about?
+
+2. What differences/similarities do you see between data scientists and statisticians?
+
+3. How do you view yourself in relation to these two areas?
+
+## Part 2
+
+|   The following code chunk will use the density function on the variable "Sepal.Length" in the data set "iris" and store it in the object "y".
+```{r store y}
+#given line of code
+y <- density(iris$Sepal.Length)
+```
+
+|    The following code chunk will display the class, type, and structure of the object "y".
+
+```{r information on y}
+#create an R code chunk to determine the class, type, and structure of the object y
+class(y)
+typeof(y)
+str(y)
+```
+| The graph below is made using the plot function on the object "y". The code chunk is hidden by setting echo to false. 
+```{r plot y}
+#| echo: false
+plot(y)
+```

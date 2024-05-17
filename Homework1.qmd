@@ -28,7 +28,7 @@ class(y)
 typeof(y)
 str(y)
 ```
-| The graph below is made using the plot function on the object "y". The code chunk is hidden by setting echo to false. 
+|   The graph below is made using the plot function on the object "y". The code chunk is hidden by setting echo to false. 
 ```{r plot y}
 #| echo: false
 plot(y)

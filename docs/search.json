@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Homework1.html",
+    "href": "Homework1.html",
+    "title": "Data_Science",
+    "section": "",
+    "text": "What do you think being a data scientist is about?\n\nI think that being a data scientist means that you are a professional who specializes in taking unstructured data, organizing it, preforming some analysis or fitting to help enable a decision, find a trend, or predict an outcome. \n\nWhat differences/similarities do you see between data scientists and statisticians?\n\nOne of the largest differences between statisticians is the scope of work. A statistician’s primary responsibility is to preform statistical analysis on quantitative, numeric, data that is organized in some fashion. A data scientist on the other hand also deals in qualitative, non-numeric, data. Statisticians and data scientists share many task such as data wrangling, performing analysis, and making recommendations but the incorporation of digital non-numeric data such as images and categorical information is unique to data scientist. \n\nHow do you view yourself in relation to these two areas?\n\nI see myself as more of a data scientist rather than a statistician. While much of my field is based in modeling, analyzing numeric data, and probability. The incorporation of non-numerical data and other non-mathematical tasks in data science align with me more."
+  },
+  {
+    "objectID": "Homework1.html#part-1",
+    "href": "Homework1.html#part-1",
+    "title": "Data_Science",
+    "section": "",
+    "text": "What do you think being a data scientist is about?\n\nI think that being a data scientist means that you are a professional who specializes in taking unstructured data, organizing it, preforming some analysis or fitting to help enable a decision, find a trend, or predict an outcome. \n\nWhat differences/similarities do you see between data scientists and statisticians?\n\nOne of the largest differences between statisticians is the scope of work. A statistician’s primary responsibility is to preform statistical analysis on quantitative, numeric, data that is organized in some fashion. A data scientist on the other hand also deals in qualitative, non-numeric, data. Statisticians and data scientists share many task such as data wrangling, performing analysis, and making recommendations but the incorporation of digital non-numeric data such as images and categorical information is unique to data scientist. \n\nHow do you view yourself in relation to these two areas?\n\nI see myself as more of a data scientist rather than a statistician. While much of my field is based in modeling, analyzing numeric data, and probability. The incorporation of non-numerical data and other non-mathematical tasks in data science align with me more."
+  },
+  {
+    "objectID": "Homework1.html#part-2",
+    "href": "Homework1.html#part-2",
+    "title": "Data_Science",
+    "section": "Part 2",
+    "text": "Part 2\n  The following code chunk will use the density function on the variable “Sepal.Length” in the data set “iris” and store it in the object “y”.\n\n#given line of code\ny &lt;- density(iris$Sepal.Length)\n\n   The following code chunk will display the class, type, and structure of the object “y”.\n\n#create an R code chunk to determine the class, type, and structure of the object y\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y         : num [1:512] 0.00023 0.000259 0.000293 0.000329 0.00037 ...\n $ bw        : num 0.274\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Sepal.Length)\n $ data.name : chr \"iris$Sepal.Length\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\n  The graph below is made using the plot function on the object “y”. The code chunk is hidden by setting echo to false."
+  }
+]

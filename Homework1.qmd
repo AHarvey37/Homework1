@@ -1,6 +1,7 @@
 ---
 title: "Data_Science"
 author: "Andrew Harvey"
+date: "18 May 2024"
 format: html
 editor: visual
 ---
@@ -8,9 +9,15 @@ editor: visual
 ## Part 1
 1. What do you think being a data scientist is about?
 
+**I think that being a data scientist means that you are a professional who specializes in taking unstructured data, organizing it, preforming some analysis or fitting to help enable a decision, find a trend, or predict an outcome. **
+
 2. What differences/similarities do you see between data scientists and statisticians?
 
+**One of the largest differences between statisticians is the scope of work. A statistician's primary responsibility is to preform statistical analysis on quantitative, numeric, data that is organized in some fashion. A data scientist on the other hand also deals in qualitative, non-numeric, data. Statisticians and data scientists share many task such as data wrangling, performing analysis, and making recommendations but the incorporation of digital non-numeric data such as images and categorical information is unique to data scientist. **
+
 3. How do you view yourself in relation to these two areas?
+
+**I see myself as more of a data scientist rather than a statistician. While much of my field is based in modeling, analyzing numeric data, and probability. The incorporation of non-numerical data and other non-mathematical tasks in data science align with me more.  **
 
 ## Part 2
 
